@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fname: Dave
+  lname: Latham
+  email: dave.latham@gmail.com
+  username: dlatham
+  password: 
+  created: 2015-06-12 16:24:02
+
+two:
+  fname: 
+  lname: 
+  email: 
+  username: 
+  password: 
+  created: 2015-06-12 16:24:02
