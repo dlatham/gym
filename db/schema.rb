@@ -31,9 +31,14 @@ ActiveRecord::Schema.define(version: 20150615183916) do
   add_index "devices", ["users_id"], name: "index_devices_on_users_id"
 
   create_table "tags", force: true do |t|
+    t.string   "uuid"
+    t.integer  "users_id"
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "tags", ["users_id"], name: "index_tags_on_users_id"
 
   create_table "users", force: true do |t|
     t.string   "fname"
